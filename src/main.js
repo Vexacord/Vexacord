@@ -6,6 +6,7 @@
  */
 
 const {app, BrowserWindow} = require('electron');
+const path = require('path');
 
 /**
  * A function that runs VexaCord
@@ -19,7 +20,14 @@ function runVexaCord() {
             nodeIntegration: false,
             nodeIntegrationInSubFrames: false,
             nodeIntegrationInWorker: false,
-            contextIsolation: true
+            contextIsolation: true,
+
+            /**
+             * Give access to the devtools to execute JavaScript not authorized by VexaCord and Discord
+             */
+            devTools: true,
+
+            preload: path.join(__dirname, 'mod.js')
         }
     });
 
