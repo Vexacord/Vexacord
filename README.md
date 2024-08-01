@@ -17,7 +17,7 @@ This is a detailed instruction how to download VexaCord.
 
 Just download the VexaCord latest release or [build](#run-vexacord-from-source) it from code in `main` branch.
 
-## Development versions
+### Development versions
 
 > [!CAUTION]
 > You are going to install untested version of Vexacord. This version is updated after each change in the repo, what may create some problems. Until you aren't advanced user, skip this development branch.
