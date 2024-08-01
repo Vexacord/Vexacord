@@ -1,0 +1,29 @@
+{
+  "name": "vexacord",
+  "version": "1.0.0",
+  "description": "The custom Discord app with a great modification built-in!",
+  "keywords": [
+    "discord",
+    "modification",
+    "mod",
+    "vexacord"
+  ],
+  "author": "VexaCord",
+  "homepage": "https://github.com/Vexacord/Vexacord#readme",
+  "license": "SEE LICENSE IN LICENSE.MD",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "npm run app",
+    "app": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vexacord/Vexacord.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Vexacord/Vexacord/issues"
+  },
+  "dependencies": {
+    "electron": "^31.3.1"
+  }
+}
